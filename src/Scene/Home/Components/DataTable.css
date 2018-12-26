@@ -1,0 +1,60 @@
+.tbl-root {
+    margin-top: 0;
+    min-height: 500px;
+    max-height: 750px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x:auto;
+    z-index: 101;
+    box-shadow: none;
+}
+
+.tiny-cell {
+    padding: 4px 5px 4px 5px;
+    height: 80%;
+    font-size: 12px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+}
+
+.tbl-header {
+    background-color: #1d1c1e;
+    color: #cccccc;
+    position: -webkit-sticky;
+	position: sticky;
+    top: 0;
+    z-index: 12;
+}
+
+.tiny-font {
+    font-size: 12px;
+}
+
+.total-prize {
+    color: #8eb112;
+}
+
+/* customized scoll bar for datatable*/
+#style-table::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(11, 20, 34, 0.1);
+    background-color: rgb(11, 20, 34, 0.1);
+}
+
+/* Track */
+#style-table::-webkit-scrollbar-track {
+    color: rgb(30, 39, 55, 1); 
+    /*color: rgb(11, 20, 34, 0.5);*/
+    /*box-shadow: inset 0 0 3px rgb(30, 39, 55, 0.3); */
+}
+ 
+/* Handle */
+#style-table::-webkit-scrollbar-thumb {
+    background: rgb(15, 20, 28, 0.3);
+}
+
+/* Handle on hover */
+#style-table::-webkit-scrollbar-thumb:hover {
+    background: rgb(30, 39, 55, 0.5); 
+}
+
